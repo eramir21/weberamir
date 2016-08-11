@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Principal</title>
+    </h:head>
+    <h:body>
+        <div>Pagina Principal de la Aplicacion</div>
+    
+        
+        <p:dataTable var="" value="">
+            <p:column headerText="Id">
+                <h:outputText value="#{LoginBean.usuario}" />
+            </p:column>
+
+            <p:column headerText="Nombre">
+                <h:outputText value="#{LoginBean.nombre}" />
+            </p:column>
+
+            <p:column headerText="Apellido">
+                <h:outputText value="#{LoginBean.apellido}" />
+            </p:column>
+
+            <p:column headerText="Acción">
+                <h:outputText value="En proceso" />
+            </p:column>
+            
+        </p:dataTable>
+     
+        
+        <h:form id="cerrar">
+            <p:commandButton action="#{LoginBean.cerrarSesion}" value="Cerrar Sesion" />
+        </h:form>
+ <br />
+       
+    </h:body>
+</html>

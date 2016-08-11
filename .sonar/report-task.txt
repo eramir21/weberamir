@@ -1,0 +1,5 @@
+projectKey=WebEramir1.0
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/WebEramir1.0
+ceTaskId=AVZ2Oj9hcbax6Rqsx-jG
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVZ2Oj9hcbax6Rqsx-jG
